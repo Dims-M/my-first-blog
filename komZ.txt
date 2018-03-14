@@ -1,0 +1,17 @@
+
+запук вирт укружения
+C:\python_work\prokt_Django\myvenv\Scripts\activate
+раб вир окружение
+(myvenv) C:\python_work\prokt_Django\myvenv\Scripts>
+
+запуск веб сервиса
+C:\python_work\prokt_Django\myvenv python manage.py runserver
+
+http://127.0.0.1:8000/
+
+Что-бы выйти из активированного окружения просто набираем
+
+deactivate
+
+Создание супер пользователя.
+python manage.py createsuperuser
