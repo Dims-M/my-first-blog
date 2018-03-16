@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<META name="author" Lang="ru" content="Created by KKM">
+	
+	<title>ЕГАИС</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://localhost/new/css/main.css?20161025085000">
+	<link rel="stylesheet" type="text/css" href="http://localhost/new/css/jquery-ui-1.11.4.custom/jquery-ui.css" />	
+	<link rel="stylesheet" type="text/css" href="http://localhost/new/css/jquery.alerts.css" />	
+	<link rel="stylesheet" type="text/css" href="http://localhost/new/css/ui.jqgrid.css" mce_href="http://localhost/new/css/ui.jqgrid.css" />
+	
+	
+	<script src="http://localhost/new/js/jquery.js"></script>
+	<script src="http://localhost/new/js/site.js?201604010917"></script>
+	<script src="http://localhost/new/js/jquery.jqgrid.min.js"></script>
+	<script src="http://localhost/new/js/i18n/grid.locale-ru.js"></script>
+	<script src="http://localhost/new/js/jquery.transit.min.js"></script>
+	<script src="http://localhost/new/js/jquery.ui.draggable.js"></script>
+	<script src="http://localhost/new/js/jquery.alerts.js"></script>
+	<script src="http://localhost/new/js/online.js"></script>
+	
+	 
+</head>
+<body>﻿  <script>
+     function func() {
+         $.alerts._hide();
+     }
+  jAlert(   '<font size="5px" color="":><br><br><br>Уважаемые клиенты! <br>Напоминаем Вам, что техническая поддержка оказывается только зарегистрированным пользователям!<br>Для того чтобы встать на техническое обслуживание позвоните: 8(843)556-58-00 в наш отдел продаж. <br>С уважением ООО "Центр ККМ Сервис"!</font>')
+     setTimeout(func, 15000);
+ </script>
+
+
+ <div id="login-form" >
+        <h1>Работа с УТМ ЕГАИС</h1>
+
+        <fieldset >
+            <form action="#" method="post" name="loginForm" >
+				<select name="login">
+									<option value="user1">  ((Название магазина))</option>
+									<option value="user2">  (Магазин 2)</option>
+								</select>
+                <input type="text" name="password"  placeholder="Пароль" onfocus="goToBottomLogin();" onblur="goToTopLogin();" >
+                <input type="button" value="ВХОД" onclick="javascript:loginForm.submit(); this.value='Загрузка. Подождите, пожалуйста'" class="checkButton">
+                
+            </form>
+        </fieldset>
+
+    </div>
+	
+</body>
+</html>
