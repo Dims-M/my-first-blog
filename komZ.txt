@@ -16,6 +16,12 @@ deactivate
 Создание супер пользователя.
 python manage.py createsuperuser
 
+заливка на  гид
+git status
+git add --all .
+git commit -m "Мои коментарии."
+git push
+
 $ cd ~/my-first-blog
 $ git pull
 
