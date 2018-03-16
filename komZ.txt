@@ -15,3 +15,9 @@ deactivate
 
 Создание супер пользователя.
 python manage.py createsuperuser
+
+$ cd ~/my-first-blog
+$ git pull
+
+клонирование репозитория
+git clone https://github.com/Dims-M/my-first-blog.git
